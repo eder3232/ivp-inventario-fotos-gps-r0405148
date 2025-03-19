@@ -464,6 +464,7 @@ dependencies = [
     { name = "ipywidgets" },
     { name = "jupyter" },
     { name = "matplotlib" },
+    { name = "mplcursors" },
     { name = "numpy" },
     { name = "openpyxl" },
     { name = "pandas" },
@@ -481,6 +482,7 @@ requires-dist = [
     { name = "ipywidgets", specifier = ">=8.1.5" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.1" },
+    { name = "mplcursors", specifier = ">=0.6" },
     { name = "numpy", specifier = ">=2.2.4" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=2.2.3" },
@@ -1001,6 +1003,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/80/f7/f6d06304c61c2a73213c0a4815280f70d985429cda26272f490e42119c1a/mistune-3.1.2.tar.gz", hash = "sha256:733bf018ba007e8b5f2d3a9eb624034f6ee26c4ea769a98ec533ee111d504dff", size = 94613 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/12/92/30b4e54c4d7c48c06db61595cffbbf4f19588ea177896f9b78f0fbe021fd/mistune-3.1.2-py3-none-any.whl", hash = "sha256:4b47731332315cdca99e0ded46fc0004001c1299ff773dfb48fbe1fd226de319", size = 53696 },
+]
+
+[[package]]
+name = "mplcursors"
+version = "0.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d4/51/05bfb154407ca93f98032faf30596f610178c92dad454d4d7273910d600a/mplcursors-0.6.tar.gz", hash = "sha256:775217cd09965bb17179c0cd0fb123fed4f4f00d7ade7e7e8788a6581fb2c8a9", size = 88578 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c7/a4/070512af1bbf73de4d2648bbfc355619abf27dd468dba6dae35805a05b43/mplcursors-0.6-py3-none-any.whl", hash = "sha256:2d900267848378987c46ad2504ea484e274adbb596a71547c5c95d2b4f520a56", size = 20471 },
 ]
 
 [[package]]

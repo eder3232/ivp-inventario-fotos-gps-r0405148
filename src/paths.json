@@ -7,6 +7,10 @@
   "IMAGES_REDUCED_SIZE_DIR": "tmp/images/300_images_reduced_size",
   "EXEL_PATH": "input/xlsx/data_campo.xlsx",
   "COORDENADAS_PATH": "input/xlsx/coordenadas_gps.xlsx",
-  "PROCESSED_DATA_PICKLE_PATH": "tmp/pickle/processed_data.pkl",
-  "METADATA": "tmp/json/metadata.json"
+  "PROCESSED_DATA_PICKLE_PATH": "tmp/pickle/200_processed_data.pkl",
+  "PROCESSED_DATA_EXCEL": "tmp/xlsx/200_processed_data.xlsx",
+  "METADATA": "tmp/json/300_metadata.json",
+  "METADATA_WITH_UTM": "tmp/json/310_metadata_with_utm.json",
+  "METADATA_EXCEL": "tmp/xlsx/320_metadata_excel.xlsx",
+  "METADATA_PICKLE": "tmp/pickle/320_metadata.pkl"
 }
