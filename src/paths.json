@@ -12,5 +12,8 @@
   "METADATA": "tmp/json/300_metadata.json",
   "METADATA_WITH_UTM": "tmp/json/310_metadata_with_utm.json",
   "METADATA_EXCEL": "tmp/xlsx/320_metadata_excel.xlsx",
-  "METADATA_PICKLE": "tmp/pickle/320_metadata.pkl"
+  "METADATA_PICKLE": "tmp/pickle/320_metadata.pkl",
+  "KML": "input/google_earth/google_earth.kml",
+  "PROCESSED_WITH_COORDINATES_PICKLE_PATH": "tmp/pickle/400_processed_with_coordinates.pkl",
+  "PROCESSED_FIXED_WITH_COORDINATES_PICKLE_PATH": "tmp/pickle/401_processed_fixed_with_coordinates.pkl"
 }
